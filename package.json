@@ -1,0 +1,31 @@
+{
+  "name": "angular-google-maps",
+  "version": "0.0.1",
+  "description": "A Google Maps API wrapper service for Angular.js",
+  "main": "src/angular-google-maps.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp test",
+    "postinstall": "./node_modules/bower/bin/bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joonhocho/angular-google-maps.git"
+  },
+  "keywords": [
+    "Google Maps API",
+    "angular.js",
+    "javascript",
+    "wrapper",
+    "service"
+  ],
+  "author": "Joon Ho Cho <joonho1101@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joonhocho/angular-google-maps/issues"
+  },
+  "homepage": "https://github.com/joonhocho/angular-google-maps"
+}
