@@ -1,6 +1,6 @@
 {
   "name": "ng-google-maps",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Google Maps API wrapper service for Angular.js",
   "main": "src/ng-google-maps.js",
   "directories": {

@@ -49,9 +49,10 @@ angular.module('jun.google.maps', [])
       (function loadScript(doc) {
         var script = doc.createElement('script');
         script.type = 'text/javascript';
-        script.src = 'https://maps.googleapis.com/maps/api/js?' +
-          'key=' + svc.options.key +
-          'callback=' + cbName;
+        script.src = 'https://maps.googleapis.com/maps/api/js' +
+          '?key=' + svc.options.key +
+          '&callback=' + cbName +
+          (svc.options.lib ? '&libraries=' + svc.options.lib : '');
         script.onerror = script.onabort = function (e) {
           deferred.reject(e);
         };
