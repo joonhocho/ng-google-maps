@@ -1,12 +1,12 @@
 {
-  "name": "angular-google-maps",
+  "name": "ng-google-maps",
   "version": "0.0.1",
-  "homepage": "https://github.com/joonhocho/angular-google-maps",
+  "homepage": "https://github.com/joonhocho/ng-google-maps",
   "authors": [
     "Joon Ho Cho <joonho1101@gmail.com>"
   ],
   "description": "A Google Maps API wrapper service for Angular.js",
-  "main": "src/angular-google-maps.js",
+  "main": "src/ng-google-maps.js",
   "keywords": [
     "Google Maps API",
     "angular.js",
