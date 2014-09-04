@@ -52,7 +52,8 @@ angular.module('jun.google.maps', [])
         script.src = 'https://maps.googleapis.com/maps/api/js' +
           '?key=' + svc.options.key +
           '&callback=' + cbName +
-          (svc.options.lib ? '&libraries=' + svc.options.lib : '');
+          (svc.options.lib ? '&libraries=' + svc.options.lib : '') +
+          (svc.options.jsParams ? '&' + svc.options.jsParams : '');
         script.onerror = script.onabort = function (e) {
           deferred.reject(e);
         };
